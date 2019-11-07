@@ -42,6 +42,7 @@ body {
 }
 
 li {
+  white-space: nowrap;
   display: grid;
   grid-template-columns: repeat(4, 0.05fr);
   grid-gap: 10px;
