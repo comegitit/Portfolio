@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles_weather.css">
+  <title>Assig 3: Weather API</title>
+</head>
+<header class="header">
+  <img class="logo" src="./images/logo.png" alt="Company Logo">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="current"><a href="weather.html">Weather API</a></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
+  <div class="location">
+    <!-- Skycon icon -->
+    <canvas class="icon"></canvas>
+    <h1 class="location-timezone">Timezone</h1>
+  </div>
+  <div class="temperature">
+    <div class="temperature-display-section">
+      <h2 class="temp-in-degrees"></h2>
+      <!-- Degrees Celsius symbol -->
+      <span>&#8451;</span>
+    </div>
+    <div class="conditions-description">Current Conditions</div>
+  </div>
+  <img class="DarkSky" src="./images/DarkSkyIcon.png" alt="Dark Sky Logo">
+
+  <script src="app.js"></script>
+  <script src="skycons.js"></script>
+
+</body>
+
+</html>
