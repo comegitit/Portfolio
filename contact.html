@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Roy's personal portfolio site">
+  <meta name="keywords" content="web design, personal, Calgary, agency, web agency">
+  <meta name="author" content="Roy Aggarwal">
+  <link rel="stylesheet" href="./styles.css">
+  <!--For Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+  <!--For Font Awesome icons-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <title>Assig Final CMPT 260</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./images/logo.png" alt="Company Logo">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="current"><a href="contact.html">Contact</a></li>
+        <li><a href="cards.html">Cards</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br><br><br><br><br><br><br><br>
+
+  <form action="#" method="post" enctype='multipart/form-data'>
+    <fieldset>
+      <legend>Subscribe To My Monthly Newsletter!</legend>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="class" placeholder="First & Last Name">
+
+        <label for="name">Email</label>
+        <input type="email" name="email" placeholder="Valid email addresses include '@' and '.'">
+
+        <label for="phone">Phone (Optional)</label>
+
+        <!-- <input type="tel" id="phone" name="phone" placeholder="Format: 555-555-5555"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> -->
+        <input type="tel" id="phone" name="phone" placeholder="Format: 555-555-5555"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <!-- Just for the sake of the submit button going somewhere-->
+        <button onclick="location.href='index.html'" type="button">Submit</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>
+    <a href="https://instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+    <h6>CPNT 260 Final Assignment &nbsp; &copy; 2019 Roy Aggarwal</h6>
+    <a href="https://facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
+  </footer>
+
+</body>
+
+</html>
