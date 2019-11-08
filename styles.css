@@ -70,17 +70,12 @@ li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: #3b747d;
-}
-
-h1,
-h2,
-a {
-  color: #3b747d;
+  color: #000000;
 }
 
 a {
   text-decoration: none;
+  color: #e8491d;
 }
 
 .header {
@@ -130,12 +125,8 @@ header .current a {
   width: 100%;
 }
 
-.about-img {
-  width: 1000%;
-}
-
 .hero-text {
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
   position: absolute;
   top: 40%;
@@ -144,46 +135,23 @@ header .current a {
   color: #fff;
 }
 
-/*=== Cards Page ===*/
-.testimonials {
-  margin: 200px auto 100px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 20px
-}
-
-.testimonials .card {
-  position: relative;
-  width: 350px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.testimonials .card .layer {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-
 /*=== About Page ===*/
 
-.css-transition {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  font-size: 2em;
-  color: #e8491d;
+.about-img {
+  width: 40%;
+  border-radius: 5px;
+  margin: 90px 10px 0px 10px;
+  float: left;
 }
 
-.about-img {
-  width: 30%;
-  float: left;
-  padding: 20px;
+.about-text {
+  /* font-size: 2.5em; */
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 /* ===================================================
