@@ -16,8 +16,8 @@ body {
   color: white;
 }
 
-ul li a{
-  color:white;
+ul li a {
+  color: white;
 }
 
 li {
@@ -31,7 +31,8 @@ li {
   color: #3b747d;
 }
 
-h2, a {
+h2,
+a {
   color: white;
 }
 
@@ -53,9 +54,9 @@ a {
   width: 100vw;
 }
 
-header .current a{
-  color:#e8491d;
-  font-weight:bold;
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
 .logo {
@@ -72,12 +73,12 @@ header .current a{
   text-transform: uppercase;
   text-align: center;
   display: block;
-  color: #34495e;
+  color: #000000;
   font-size: .75em;
 }
 
 .main-nav a:hover {
-  color:#e8491d;
+  color: #e8491d;
 }
 
 
@@ -87,7 +88,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 1.2em;
+  font-size: 1.9em;
+  text-emphasis: none;
   position: fixed;
   left: 0;
   bottom: 0;

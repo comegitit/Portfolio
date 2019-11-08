@@ -8,27 +8,48 @@ from http://meyerweb.com/eric/tools/css/reset/
    License: none (public domain)
 Modified for use in this project */
 
-html, body, div, span,
-h1, h2, h3, h4, h5, h6,
-p, a, img, ul, li,
-figure, figcaption, header, nav {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+figure,
+figcaption,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-figcaption, figure, header, nav, section {
-	display: block;
+figcaption,
+figure,
+header,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 /* ================================================ */
@@ -52,8 +73,10 @@ li {
   color: #3b747d;
 }
 
-h1, h2, a {
-  color: #3b747d; 
+h1,
+h2,
+a {
+  color: #3b747d;
 }
 
 a {
@@ -75,9 +98,9 @@ a {
   width: 100vw;
 }
 
-header .current a{
-  color:#e8491d;
-  font-weight:bold;
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
 .logo {
@@ -93,18 +116,22 @@ header .current a{
   text-transform: uppercase;
   text-align: center;
   display: block;
-  color: #34495e;
+  color: #000000;
   font-size: .75em;
 }
 
 .main-nav a:hover {
-  color:#e8491d;
+  color: #e8491d;
 }
 
 /*=== Home Page ===*/
 
 .hero-img {
   width: 100%;
+}
+
+.about-img {
+  width: 1000%;
 }
 
 .hero-text {
@@ -114,36 +141,34 @@ header .current a{
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
 }
 
 /*=== Cards Page ===*/
 .testimonials {
   margin: 200px auto 100px;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px
 }
 
-.testimonials .card{
+.testimonials .card {
   position: relative;
   width: 350px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
 }
 
-.testimonials .card .layer
-{
+.testimonials .card .layer {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  height:100%;
-  z-index:1;
+  height: 100%;
+  z-index: 1;
 }
-
 
 
 /*=== About Page ===*/
@@ -152,16 +177,12 @@ header .current a{
   margin-top: 80px;
   margin-bottom: 40px;
   font-size: 2em;
-  color:#e8491d;
+  color: #e8491d;
 }
 
-.css-transition:hover {
-  color: white;
-}
-
-.about-img{
+.about-img {
   width: 30%;
-  float:left;
+  float: left;
   padding: 20px;
 }
 
@@ -171,7 +192,7 @@ credit: Harm Putman, Codepen
 https://codepen.io/harmputman/pen/IpAnb
 =====================================================*/
 
- .callout {
+.callout {
   background: #fff;
   width: 100%;
   max-width: 400px;
@@ -213,17 +234,18 @@ blockquote:before {
 }
 
 blockquote:after {
-  content: "\2013 \2003" attr(cite);
+  content: "\2013 \2003"attr(cite);
   display: block;
   text-align: right;
   font-size: 0.875em;
   color: #e74c3c;
 }
+
 /* ============================================*/
 
 /* ===Gallery Page===*/
 
-.images-wrapper h1{
+.images-wrapper h1 {
   text-align: left;
   font-size: 2em;
   padding: 100px;
@@ -236,9 +258,10 @@ blockquote:after {
   align-items: center;
   justify-content: center;
 }
-.single-img{
-  padding:0 150px 20px;
-  
+
+.single-img {
+  padding: 0 150px 20px;
+
 }
 
 /* img:hover{
@@ -262,13 +285,13 @@ form {
 legend {
   padding: 25px;
   text-align: center;
-  color:#e8491d;
+  color: #e8491d;
   font-weight: bold;
 }
 
 fieldset {
   border: 0;
-  color:#e8491d;
+  color: #e8491d;
 }
 
 div {
