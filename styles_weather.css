@@ -155,14 +155,12 @@ header .current a {
 }
 
 /* ================================*/
-/*Bugtracker: footer css not behaving like other pages */
+
 footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Prata', 'Times New Roman', Times, serif;
-  letter-spacing: 1px;
-  font-size: 1.75em;
+  font-size: 1.9em;
   text-emphasis: none;
   position: fixed;
   left: 0;
