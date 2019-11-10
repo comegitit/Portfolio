@@ -82,24 +82,6 @@ header .current a {
 }
 
 
-/* ================================*/
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 1.9em;
-  text-emphasis: none;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-}
-
-
-
 /* ==========================================
   Media Queries
   credit: Sam Norton, Codepen.
@@ -170,4 +152,20 @@ footer {
 
 .icon {
   width: 300px;
+}
+
+/* ================================*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.9em;
+  text-emphasis: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
