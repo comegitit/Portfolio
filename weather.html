@@ -1,49 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE html>
-  <html lang="en">
-  
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Roy's personal portfolio site">
-    <meta name="keywords" content="web design, personal, Calgary, agency, web agency">
-    <meta name="author" content="Roy Aggarwal">
-    <link rel="stylesheet" href="./styles_weather.css">
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
-    <!--For Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
-    <!--For Font Awesome icons-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <title>Portfolio</title>
-  </head>
-  
-  <body>
-    <header class="header">
-      <img class="logo" src="./images/logo.png" alt="Company Logo">
-      <nav>
-        <ul class="main-nav">
-          <li class="current"><a href="index.html">Home</a></li>
-          <!-- <li><a href="about.html">About</a></li> -->
-          <!-- <li><a href="gallery.html">Gallery</a></li> -->
-          <li><a href="weather.html">Weather API</a></li>
-          <li><a href="resume.html">Resum&eacute;</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="location">
-  <!-- Skycon icon -->
-  <canvas class="icon"></canvas>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Roy's personal portfolio site">
+  <meta name="keywords" content="web design, personal, Calgary, agency, web agency">
+  <meta name="author" content="Roy Aggarwal">
+  <link rel="stylesheet" href="./styles_weather.css">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!--For Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+  <!--For Font Awesome icons-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="./images/logo.png" alt="Company Logo">
+    <nav>
+      <ul class="main-nav">
+        <li class="current"><a href="index.html">Home</a></li>
+        <!-- <li><a href="about.html">About</a></li> -->
+        <!-- <li><a href="gallery.html">Gallery</a></li> -->
+        <li><a href="weather.html">Weather API</a></li>
+        <li><a href="index_mobile.html">Mobile</a></li>
+        <li><a href="resume.html">Resum&eacute;</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="location">
+    <!-- Skycon icon -->
+    <canvas class="icon"></canvas>
     <h1 class="location-timezone">Timezone</h1>
   </div>
   <div class="temperature">
     <div class="temperature-display-section">
-      <h2 class="temp-in-degrees"></h2>
-  <!-- Degrees Celsius symbol -->
-  <span>&#8451;</span>
+      <h2 class="temp-in-degrees">
+        <!-- Degrees Celsius symbol -->
+        <span>&#8451;</span>
+      </h2>
     </div>
     <div class="conditions-description">Current Conditions</div>
   </div>
