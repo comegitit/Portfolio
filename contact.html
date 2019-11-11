@@ -19,10 +19,9 @@
 </head>
 
 <body>
-  <!-- Only one unique style for this page, thus using inline styles -->
+  <!-- Only one unique style for this page, thus using an inline style -->
   <style>
-    body {
-      background: radial-gradient(rgb(220, 223, 50), rgb(232, 73, 29));
+    body {background: radial-gradient(rgb(220, 223, 50), rgb(232, 73, 29));}
   </style>
   <header class="header">
     <img class="logo" src="./images/logo.png" alt="Company Logo">
@@ -44,22 +43,19 @@
     <br><br><br><br><br><br>
 
     <div class="container">
-      <!-- <form id="contact" action="" method="post"> -->
       <form name="contact_form" id="contact" action="/thanks.html" method="POST" data-netlify="true">
-        <!-- <form name="contact_form" id="contact" action="" method="post" data-netlify="true"> -->
-        <!-- <form id="contact" action="" method="post" data-netlify="true"> -->
-        <!-- <form name="contact_form" id="contact" action="POST" data-netlify="true"> -->
-
-        <h3>Get In Touch</h3>
-
-
+    <!-- Accessible Form -->
+        <legend>Get In Touch</legend>
         <fieldset>
+            <label for="form_name">Username</label>
           <input name="name" placeholder="Your Name" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
+            <label for="form_email">Email</label>
           <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
         </fieldset>
         <fieldset>
+            <label for="form_message">Message</label>
           <textarea name="message" placeholder="Your Message" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
@@ -77,6 +73,6 @@
     <h6>Portfolio Site &nbsp; &copy; 2019 Roy Aggarwal</h6>
     <a href="linkedin.com/in/calgaryroy"><i class="fa fa-linkedin-square fa-2x"></i></a>
   </footer>
-</body>
+ </body>
 
 </html>
