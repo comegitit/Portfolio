@@ -91,6 +91,11 @@ header a {
   border-radius: 5px;
 }
 
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 MEDIA QUERIES
