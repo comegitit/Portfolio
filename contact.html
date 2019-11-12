@@ -21,7 +21,8 @@
 <body>
   <!-- Only one unique style for this page, thus using an inline style -->
   <style>
-    body {background: radial-gradient(rgb(220, 223, 50), rgb(232, 73, 29));}
+    /* body {background: radial-gradient(rgb(220, 223, 50), rgb(232, 73, 29));} */
+    body {background: linear-gradient(rgb(0, 0, 0), rgb(109, 2, 82));}
   </style>
   <header class="header">
     <img class="logo" src="./images/logo.png" alt="Company Logo">
@@ -45,18 +46,19 @@
     <div class="container">
       <form name="contact_form" id="contact" action="/thanks.html" method="POST" data-netlify="true">
     <!-- Accessible Form -->
-        <legend>Get In Touch</legend>
+        <legend></legend>
         <fieldset>
-            <label for="form_name">Username</label>
-          <input name="name" placeholder="Your Name" type="text" tabindex="1" required autofocus>
+          <br>
+            <label for="form_name">Name:</label>
+          <input name="name" placeholder="First & Last Name" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-            <label for="form_email">Email</label>
-          <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+            <label for="form_email">Email:</label>
+          <input name="email" placeholder="Valid Emails contain @ and ." type="email" tabindex="2" required>
         </fieldset>
         <fieldset>
-            <label for="form_message">Message</label>
-          <textarea name="message" placeholder="Your Message" tabindex="5" required></textarea>
+            <label for="form_message">Message:</label>
+          <textarea name="message" placeholder="Your Message Here" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
           <!-- Spambot filter -->
@@ -71,7 +73,7 @@
   <footer>
     <a href="https://github.com/comegitit"><i class="fa fa-github fa-2x"></i></a>
     <h6>Portfolio Site &nbsp; &copy; 2019 Roy Aggarwal</h6>
-    <a href="linkedin.com/in/calgaryroy"><i class="fa fa-linkedin-square fa-2x"></i></a>
+    <a href="https://linkedin.com/in/calgaryroy"><i class="fa fa-linkedin-square fa-2x"></i></a>
   </footer>
  </body>
 
